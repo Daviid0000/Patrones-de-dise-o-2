@@ -1,11 +1,11 @@
-import { Config } from "./patters/singleton/config_db/configurationManagement.js";
-import { connectionDB } from "./patters/singleton/config_global/connectionDB.js";
-import { DeviceInputFactoryMethod } from "./patters/factory/addDevices/addDevices.js";
-import { PeripheralOutputFacthoryMethod } from "./patters/factory/createOutput/createOutput.js";
-import { Equipment, MaintenanceDepartament, } from "./patters/observer/notify/notification.js";
-import { InterfaceUser, Inventory, } from "./patters/observer/updateInventory/updateInventory.js";
-import { InvoicingAdapter, OldInvoicingSystem, } from "./patters/adaptador/Integrar_sys_Facturación/sys_facturacion.js";
-import { ExternalSupplierAPI, SupplierAdapter, } from "./patters/adaptador/api_externas/api_externas.js";
+import { Config } from "./patrones/singleton/configurationBD/configurationManagement.js";
+import { connectionDB } from "./patrones/singleton/configurationGlobal/connectionDB.js";
+import { DeviceInputFactoryMethod } from "./patrones/factory/addDevices/addDevices.js";
+import { PeripheralOutputFacthoryMethod } from "./patrones/factory/createOutput/createOutput.js";
+import { Equipment, MaintenanceDepartament, } from "./patrones/observer/notify/notification.js";
+import { InterfaceUser, Inventory, } from "./patrones/observer/updateInventory/updateInventory.js";
+import { InvoicingAdapter, OldInvoicingSystem, } from "./patrones/adaptador/invoicesIntegrate/invoices.js";
+import { ExternalSupplierAPI, SupplierAdapter, } from "./patrones/adaptador/externalsApis/externalsApis.js";
 
 // Patrón Singleton
 console.log("Management configuration:");
